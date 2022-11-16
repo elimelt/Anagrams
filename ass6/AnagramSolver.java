@@ -53,7 +53,7 @@ public class AnagramSolver {
 
 
     private List<String> relevantWords(String s){
-        List<String> output = new ArrayList();
+        List<String> output = new ArrayList<>();
         LetterInventory inputInventory = new LetterInventory(s);
         for (String key : wordMap.keySet()){
             LetterInventory currentInventory = wordMap.get(key);
